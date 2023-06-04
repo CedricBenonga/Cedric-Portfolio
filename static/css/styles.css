@@ -1,0 +1,223 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.9 (https://startbootstrap.com/themes/clean-blog)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
+ */
+
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* ------- a section -------- */
+a {
+  color: #212529;
+  transition: all 0.2s;
+}
+
+a:focus, a:hover {
+color: #0085A1;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: none;
+}
+/* ----- end of a section ----- */
+
+/* ----- about section ----- */
+
+.language-image {
+  width: 300px;
+  margin: 0 auto 30px 30px;
+  background-color: #A2B38B;
+  border-radius: 100%;
+  float: right;
+}
+
+.img-fluid {
+  border-radius: 10%;
+}
+
+.skills {
+  width: 83%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-image {
+  width: 25%;
+  margin: 0 30px 0 auto;
+  background-color: #A2B38B;
+  border-radius: 100%;
+  float: left;
+}
+
+.skill-row {
+  width: 50;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+/* ----- end of about Section ----- */
+
+/* ----- button section ----- */
+.btn:hover {
+  background-color: #00657b !important;
+  border-color: #00657b !important;
+}
+/* ----- end button section ---- */
+
+/* ----- footer section ----- */
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* ----- end of footer section ----- */
+
+
+/* ----- header section ----- */
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+/* ----- end of header section ----- */
+
+/* ------ img section --------  */
+.d-block {
+  width: 400px;
+  height: 350px;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+/* ------ end of img section ------- */
+
+/* ----- work section ------ */
+.work {
+  margin: 50px 100px 50px 100px;
+}
+
+.work-content {
+  margin: 20px 50px 20px 50px;
+}
+
+.work-img {
+  width: 60px;
+  border-radius: 20%;
+}
+/* ----- end of work Section ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,242 @@
+{% include "header.html" %}
+
+<header class="masthead" style="background-image: url({{ url_for('static', filename='img/about.jpg')}}">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>About me</h1>
+                    <span class="subheading">Get to know me</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section><!-- About Section -->
+    <div class="container">
+        <div style="padding-bottom: 20px;">
+            <h1>About</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 sm-auto" data-aos="fade-right">
+                <img src="static/img/cedric-rounded.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up">
+                        <h4 style="padding: 20px 20px;">Personal details</h4>
+                        <ol>
+                            <li><b>Full name:</b> <span>Cedric Is'Imange Benonga</span></li>
+                            <li><b>Marital status:</b> <span>Married.</span></li>
+                            <ul>
+                                <li>with 1 kid.</li>
+                                <ul>
+                                    <li>A daughter.</li>
+                                </ul>
+                            </ul>
+                            <li><b>Location:</b> <span>Cape Town, South Africa.</span></li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up">
+                        <h4 style="padding: 20px 20px;">Personality Traits</h4>
+                        <ol>
+                            <li>Passion in programming</li>
+                            <li>Problem-solving oriented</li>
+                            <li>Creativity</li>
+                            <li>Quick learning</li>
+                            <li>detail-oriented</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End of About Section -->
+
+<section><!-- Education section -->
+    <div class="container">
+        <div>
+            <h1 style="padding-top: 80px; padding-bottom: 30px;">Education</h1>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Institute</th>
+                    <th scope="col">Discipline</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Start Date</th>
+                    <th scope="col">End Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Udemy</th>
+                    <td>The Complete Python Pro Bootcamp</td>
+                    <td>Online Course</td>
+                    <td>Jan 2022</td>
+                    <td>June 2023</td>
+                </tr>
+                <tr>
+                    <th scope="row">University Saint Augustin of Kinshasa (USAKIN)</th>
+                    <td>Philosophy</td>
+                    <td>Kinshasa, Democratic Republic of Congo</td>
+                    <td>Sep 2009</td>
+                    <td>Jul 2012</td>
+                </tr>
+                <tr>
+                    <th scope="row">PONTIFICAL URBANIANA UNIVESITY OF ROME</th>
+                    <td>Philosophy</td>
+                    <td>Vatican city State</td>
+                    <td>Sep 2009</td>
+                    <td>Jul 2012</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section><!-- End of Education Section -->
+
+<section><!-- Linguistic Skills Section -->
+    <div class="container">
+        <div class="skill-row">
+            <img class="language-image sm-auto" src="static/img/skill.gif" alt="languages">
+            <h1>Linguistic Skills</h1>
+            <p style="text-align: justify;">
+                I like traveling and I love languages. I can actually write and speak fluently three international
+                languages:
+                English, French and Portuguese, and that makes me feel like a citizen of the world.
+            </p>
+
+            <div class="row skills-content">
+                <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up">
+                    <div>
+                        <span>French</span>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-Success" style="width: 90%;"> 90%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>Portuguese</span>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-Success" style="width: 80%;"> 80%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up" data-aos-delay="100">
+
+                    <div>
+                        <span>English</span>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-Success" style="width: 80%;"> 80%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span>Spanish</span>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-Success" style="width: 40%;"> 40%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End of Linguistic Skills Section -->
+
+<section id="" class=""><!-- Programming Skills Section -->
+    <div class="container">
+        <div class="section-title">
+
+            <h1>Programming Skills</h1>
+            <p style="text-align: justify;">
+                I’m an <b>entry-level</b> but <b>professional Python Developer</b>.
+                Below is the list of programming languages that I can speak fluently. It seems short for now as I'm at
+                the
+                entre-level of programming, but it will grow longer as time goes by because I made up my mind to be a
+                lifelong
+                programming student.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 sm-auto" data-aos="fade-right">
+                <img src="static/img/coding.gif" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <div class="row skills-content">
+                    <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up">
+                        <div>
+                            <span class="skill">Python</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 90%;"> 90%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>HTML</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 99%;"> 99%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>CSS</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 80%;"> 80%</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 sm-auto" data-aos="fade-up" data-aos-delay="100">
+
+                        <div>
+                            <span>SQL</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 65%;"> 65%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>Data Science</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 50%;"> 50%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>JavaScript</span>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-Success" style="width: 20%;"> 20%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End of Programming Skills Section -->
+
+
+<section><!-- Experience Section -->
+    <div class="container">
+        <div>
+            <h1 style="padding-top: 80px;">Experience</h1>
+            <p style="text-align: justify;">
+                Even though I'm actually working in the Financial industry( at Mukuru Financial Services) for over 5
+                years
+                in which I'm now in the role of Payment Operations Specialist, I’m an <b>entry-level</b> but <b>professional
+                Python Developer</b> with no experience at all for any paid job. But I have enough muscle to fill up
+                a Professional Python Developer role as I keep building my programming skills on a daily basis and
+                this website, which is one out of many, can tell more.
+            </p>
+        </div>
+    </div>
+</section><!-- End of Experience Section -->
+
+{% include "footer.html" %}
