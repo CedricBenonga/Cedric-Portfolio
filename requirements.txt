@@ -13,7 +13,7 @@ PySocks==1.7.1
 PyYAML==6.0
 SQLAlchemy==2.0.15
 WTForms==3.0.1
-Werkzeug==2.3.4
+Werkzeug==2.2.3
 ansicolors==1.1.8
 async-generator==1.10
 attrs==23.1.0
