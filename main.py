@@ -60,7 +60,23 @@ def more():
         ["static/img/coffee-wifi.jpg", "Coffee & Wifi"],
         ["static/img/price-checker.jpg", "e-Price Checker"],
         ["static/img/top-movie.jpg", "Top Movies"],
-        ["static/img/automation.jpg", "Job automation"]
+        ["static/img/automation.jpg", "Job automation"],
+        ["static/img/dino.jpg", "Automated Google Dino Game"],
+        ["static/img/breakout.jpg", "BreakOut Game"],
+        ["static/img/cafe&wifi.jpg", "Cafe & Wifi"],
+        ["static/img/disappearing.jpg", "Disappearing Text Writing App"],
+        ["static/img/watermarking.jpg", "Image Watermarking"],
+        ["static/img/generator.jpg", "Image Colour Palette Generator"],
+        ["static/img/shop.jpg", "Online Shop"],
+        ["static/img/report.jpg", "PayOps Xcally Report"],
+        ["static/img/converter.jpg", "PDF to AudioBook Converter"],
+        ["static/img/audio.jpg", "Programming AudioBooks"],
+        ["static/img/space.jpg", "Space Invaders Game"],
+        ["static/img/stock.jpg", "Stock Price Checker"],
+        ["static/img/morse.jpg", "Text to Morse Code Converter"],
+        ["static/img/tictactoe.jpg", "Tic Tac Toe Game"],
+        ["static/img/todo.jpg", "Todo List"],
+        ["static/img/typing.jpg", "Typing Speed Test App"]
     ]
 
     return render_template("more.html", works=works)
