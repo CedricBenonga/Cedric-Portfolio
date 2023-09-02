@@ -15,66 +15,20 @@
 </header>
 
 <div class="row skills-content">
-    <div class="list-inline text-center col-lg-12 col-md-12 mx-auto">
+    <div class="list-inline text-center col-lg-20 col-md-20 mx-auto">
 
-        <div class="list-inline-item" style="padding: 30px;">
-            <div>
-                <a href="#">
-                    <div><img src="static/img/blog-users.jpg" class="work-img" style="width: 200px; height: 200px;">
-                    </div>
-                    <h6>Blog</h6>
-                </a>
-            </div>
-        </div>
+        {% for work in works: %}
 
-        <div class="list-inline-item" style="padding: 30px;">
-            <div>
-                <a href="#">
-                    <div><img src="static/img/cafe-api.jpg" class="work-img" style="width: 200px; height: 200px;"></div>
-                    <h6>Cafe API</h6>
-                </a>
+            <div class="list-inline-item" style="padding: 30px;">
+                <div>
+                    <a href="#">
+                        <div><img src={{work[0]}} class="work-img" style="width: 200px; height: 200px;">
+                        </div>
+                        <h6>{{work[1]}}</h6>
+                    </a>
+                </div>
             </div>
-        </div>
-
-        <div class="list-inline-item" style="padding: 30px;">
-            <div class="">
-                <a href="#">
-                    <div><img src="static/img/coffee-wifi.jpg" class="work-img" style="width: 200px; height: 200px;">
-                    </div>
-                    <h6>Coffee & Wifi</h6>
-                </a>
-            </div>
-        </div>
-
-        <div class="list-inline-item" style="padding: 30px;">
-            <div class="">
-                <a href="#">
-                    <div><img src="static/img/price-checker.jpg" class="work-img" style="width: 200px; height: 200px;">
-                    </div>
-                    <h6>e-Price Checker</h6>
-                </a>
-            </div>
-        </div>
-
-        <div class="list-inline-item" style="padding: 30px;">
-            <div class="">
-                <a href="#">
-                    <div><img src="static/img/top-movie.jpg" class="work-img" style="width: 200px; height: 200px;">
-                    </div>
-                    <h6>Top Movies</h6>
-                </a>
-            </div>
-        </div>
-
-        <div class="list-inline-item" style="padding: 30px;">
-            <div class="">
-                <a href="#">
-                    <div><img src="static/img/automation.jpg" class="work-img" style="width: 200px; height: 200px;">
-                    </div>
-                    <h6>Job automation</h6>
-                </a>
-            </div>
-        </div>
+        {% endfor %}
 
     </div>
 </div>

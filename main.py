@@ -53,7 +53,17 @@ def work():
 
 @app.route('/more')
 def more():
-    return render_template("more.html")
+
+    works = [
+        ["static/img/blog-users.jpg", "Blog"],
+        ["static/img/cafe-api.jpg", "Cafe API"],
+        ["static/img/coffee-wifi.jpg", "Coffee & Wifi"],
+        ["static/img/price-checker.jpg", "e-Price Checker"],
+        ["static/img/top-movie.jpg", "Top Movies"],
+        ["static/img/automation.jpg", "Job automation"]
+    ]
+
+    return render_template("more.html", works=works)
 
 
 if __name__ == "__main__":
